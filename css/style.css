@@ -8,9 +8,10 @@ body{
     
   h1{
     font-weight: bold;
-    font-size: 2.618em;
+    font-size: 4.236em;
     padding: 10px;
     line-height: 1.2em;
+    color: #cced7e;
   }
   
   p{
@@ -19,6 +20,10 @@ body{
     padding-bottom: 20px;
     box-sizing: border-box; 
     text-align: center;
+  }
+  
+  ol{
+    list-style: none;
   }
   
   #input-email label{
@@ -61,10 +66,12 @@ body{
     font-weight: 600;
     color: rgb(0, 0, 0);
   }
-  
+  input[type="text"],
   input[type="email"],
   input[type="checkbox"],
-  input[type="submit"] {
+  input[type="submit"], 
+  input[type="tel"],
+  input[type="date"]{
     border: none;
     background-color: #f0f0f0e6;
     padding: 5px;
