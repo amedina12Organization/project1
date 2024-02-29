@@ -25,7 +25,13 @@ body{
   ol{
     list-style: none;
   }
-  
+
+  #input-name label {
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+    padding-bottom: 1em;
+  }
   #input-email label{
     display: inline-block;
     width: 50px;
@@ -38,6 +44,18 @@ body{
     margin-bottom: 10px;
     border-radius: 5%;
     font-family: "Kode Mono", monospace;
+  }
+  #input-phone label {
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+    padding-bottom: 1em;
+  }
+  #input-dob label {
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+    padding-bottom: 1em;
   }
   
   #input-age-verification label{
