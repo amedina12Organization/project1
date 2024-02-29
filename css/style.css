@@ -5,7 +5,7 @@ body{
     line-height: 1.2em;
     list-style: none;
   }
-    
+  
   h1{
     font-weight: bold;
     font-size: 4.236em;
@@ -25,55 +25,23 @@ body{
   
   ol{
     list-style: none;
+    margin: 10px;
   }
-
-  #input-name label {
+  
+  #input-name label,
+  #input-email label,
+  #input-phone label,
+  #input-dob label{
     display: inline-block;
     width: 50px;
     margin-right: 10px;
     padding-bottom: 1em;
   }
-  #input-name input {
-    display: inline-block;
-    width: calc(100% - 90px);
-    margin-bottom: 10px;
-    border-radius: 5%;
-    font-family: "Kode Mono", monospace;
-  }
-
-  #input-email label{
-    display: inline-block;
-    width: 50px;
-    margin-right: 10px; 
-  }
-    
-  #input-email input{
-    display: inline-block;
-    width: calc(100% - 90px);
-    margin-bottom: 10px;
-    border-radius: 5%;
-    font-family: "Kode Mono", monospace;
-  }
-  #input-phone label {
-    display: inline-block;
-    width: 50px;
-    margin-right: 10px;
-    padding-bottom: 1em;
-  }
-  #input-phone input {
-    display: inline-block;
-    width: calc(100% - 90px);
-    margin-bottom: 10px;
-    border-radius: 5%;
-    font-family: "Kode Mono", monospace;
-  }
-  #input-dob label {
-    display: inline-block;
-    width: 50px;
-    margin-right: 10px;
-    padding-bottom: 1em;
-  }
-  #input-dob input {
+  
+  #input-name input,
+  #input-email input,
+  #input-phone input,
+  #input-dob input{
     display: inline-block;
     width: calc(100% - 90px);
     margin-bottom: 10px;
@@ -83,13 +51,14 @@ body{
   
   #input-age-verification label{
     display: inline-block;
-    width: calc(100% - 53px);
+    width: calc(100% - 60px);
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: left;
     white-space: nowrap;  
+    margin: 10px;
   }
-    
+  
   #input-age-verification input[type="checkbox"]{
     display: inline-block;
     width: auto;
@@ -97,7 +66,6 @@ body{
     height: 1em;
     width: 1em;
   }
-  
   
   #input-submit input[type="submit"]{
     margin-top: 10px;
@@ -107,6 +75,7 @@ body{
     font-weight: 600;
     color: rgb(0, 0, 0);
   }
+  
   input[type="text"],
   input[type="email"],
   input[type="checkbox"],
@@ -129,12 +98,12 @@ body{
       padding-left: 15%;
       padding-right: 15%;
     }
+    
     #input-submit input[type="submit"]{
       width: 80%;
       height: 60px;
       margin-top: 70px;
       font-size: 1.618em;
     }
-      
   }
   
