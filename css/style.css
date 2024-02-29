@@ -97,7 +97,7 @@ body{
   }
 
   input[type="date"] {
-    appearance: none;
+    appearance: textfield;
   }
   
   
