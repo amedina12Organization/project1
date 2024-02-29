@@ -126,7 +126,8 @@ input[type="date"]{
     width: 80%;
     font-size: 1.2em;
   }
-  p {
+
+  p{
     margin: 1em;
   }
 
@@ -135,20 +136,27 @@ input[type="date"]{
     height: 60px;
     margin-top: 70px;
     font-size: 1.618em;
+    border-radius: 0%;
   }
   
   #input-submit input[type="submit"]:hover{
     background-color: #cced7e;
   }
 
-input[type="text"],
-input[type="email"],
-input[type="checkbox"],
-input[type="submit"], 
-input[type="tel"],
-input[type="date"]{
-  font-size: 1em;
-}
+  input[type="text"],
+  input[type="email"],
+  input[type="checkbox"],
+  input[type="submit"], 
+  input[type="tel"],
+  input[type="date"]{
+    font-size: 1em;
+  }
+  #input-name input,
+  #input-email input,
+  #input-phone input,
+  #input-dob input{
+    border-radius: 0%;
+  }
 
 }
 
