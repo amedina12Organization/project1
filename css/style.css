@@ -55,15 +55,15 @@ ol{
   
 #input-tos label{
   display: inline-block;
-  width: center;
   padding-bottom: 10px;
   white-space: nowrap;  
-  margin: 10px;
+
 }
   
 #input-tos input[type="checkbox"]{
   display: inline-block;
-  accent-color: #cced7e;height: 1em;
+  accent-color: #cced7e;
+  height: 1em;
   width: 1em;
 }
   
