@@ -20,6 +20,7 @@ body{
     padding-bottom: 20px;
     box-sizing: border-box; 
     text-align: center;
+    margin: 10%;
   }
   
   ol{
@@ -32,6 +33,14 @@ body{
     margin-right: 10px;
     padding-bottom: 1em;
   }
+  #input-name input {
+    display: inline-block;
+    width: calc(100% - 90px);
+    margin-bottom: 10px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
+  }
+
   #input-email label{
     display: inline-block;
     width: 50px;
@@ -51,11 +60,25 @@ body{
     margin-right: 10px;
     padding-bottom: 1em;
   }
+  #input-phone input {
+    display: inline-block;
+    width: calc(100% - 90px);
+    margin-bottom: 10px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
+  }
   #input-dob label {
     display: inline-block;
     width: 50px;
     margin-right: 10px;
     padding-bottom: 1em;
+  }
+  #input-dob input {
+    display: inline-block;
+    width: calc(100% - 90px);
+    margin-bottom: 10px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
   }
   
   #input-age-verification label{
