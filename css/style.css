@@ -103,9 +103,11 @@ input[type="date"]{
     align-items: center;
     background-color: rgb(223, 218, 218);
   }
+  
   main{
     width: 80%;
   }
+  
   h1{
     text-shadow: 2px 2px #889e55;
   }
@@ -114,16 +116,18 @@ input[type="date"]{
 
 @media screen and (min-width: 992px){
   body{
-    background-color: #cced7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 218, 218);
   }
 
-  p{
-    padding-bottom: 70px;
+  main{
+    width: 80%;
+    font-size: 1.2em;
   }
-
-  ol{
-    padding-left: 15%;
-    padding-right: 15%;
+  p {
+    margin: 1em;
   }
 
   #input-submit input[type="submit"]{
@@ -132,9 +136,19 @@ input[type="date"]{
     margin-top: 70px;
     font-size: 1.618em;
   }
+  
   #input-submit input[type="submit"]:hover{
     background-color: #cced7e;
   }
+
+input[type="text"],
+input[type="email"],
+input[type="checkbox"],
+input[type="submit"], 
+input[type="tel"],
+input[type="date"]{
+  font-size: 1em;
+}
 
 }
 
