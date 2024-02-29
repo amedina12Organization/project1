@@ -6,12 +6,21 @@ body{
     list-style: none;
   }
   
-  h1{
+  h1 {
     font-weight: bold;
     font-size: 4.236em;
     padding: 10px;
     line-height: 1.2em;
     color: #cced7e;
+    background-image: url(../images/porsche.jpg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
   }
   
   p{
@@ -25,7 +34,7 @@ body{
   
   ol{
     list-style: none;
-    margin: 10px;
+    padding: 10px;
   }
   
   #input-name label,
@@ -36,6 +45,7 @@ body{
     width: 50px;
     margin-right: 10px;
     padding-bottom: 1em;
+
   }
   
   #input-name input,
@@ -62,7 +72,7 @@ body{
   #input-age-verification input[type="checkbox"]{
     display: inline-block;
     width: auto;
-    accent-color: rgb(58, 58, 58);
+    accent-color: #cced7e;
     height: 1em;
     width: 1em;
   }
