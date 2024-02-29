@@ -21,7 +21,7 @@ h1{
 p{
   font-size: 1em;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   box-sizing: border-box; 
   text-align: center;
   margin: 10%;
@@ -95,7 +95,28 @@ input[type="date"]{
   appearance: none;
 }
   
+
+@media screen and (min-width: 768px) {
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 218, 218);
+  }
+  main{
+    width: 80%;
+  }
+  h1{
+    text-shadow: 2px 2px #889e55;
+  }
+
+}
+
 @media screen and (min-width: 992px){
+  body{
+    background-color: #cced7e;
+  }
+
   p{
     padding-bottom: 70px;
   }
@@ -111,5 +132,10 @@ input[type="date"]{
     margin-top: 70px;
     font-size: 1.618em;
   }
+  #input-submit input[type="submit"]:hover{
+    background-color: #cced7e;
+  }
+
 }
+
   
