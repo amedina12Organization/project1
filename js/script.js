@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setInterval(() => {
         span.style.visibility = (span.style.visibility === 'hidden' ? 'visible' : 'hidden');
-    }, 700); // Toggle every 500 milliseconds (half a second)
+    }, 700);
 });
 
