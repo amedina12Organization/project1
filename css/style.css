@@ -1,1 +1,92 @@
-
+body{
+    font-family: "Kode Mono", "monospace", "Arial";
+    width: 100%;
+    text-align: center;
+    line-height: 1.2em;
+    list-style: none;
+  }
+    
+  h1{
+    font-weight: bold;
+    font-size: 2.618em;
+    padding: 10px;
+    line-height: 1.2em;
+  }
+  
+  p{
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box; 
+    text-align: center;
+  }
+  
+  #input-email label{
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px; 
+  }
+    
+  #input-email input{
+    display: inline-block;
+    width: calc(100% - 90px);
+    margin-bottom: 10px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
+  }
+  
+  #input-age-verification label{
+    display: inline-block;
+    width: calc(100% - 53px);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+    white-space: nowrap;  
+  }
+    
+  #input-age-verification input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+    accent-color: rgb(58, 58, 58);
+    height: 1em;
+    width: 1em;
+  }
+  
+  
+  #input-submit input[type="submit"]{
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  
+  input[type="email"],
+  input[type="checkbox"],
+  input[type="submit"] {
+    border: none;
+    background-color: #f0f0f0e6;
+    padding: 5px;
+    width: 80%; 
+    box-sizing: border-box;
+  }
+  
+  @media screen and (min-width: 992px){
+    p{
+      padding-bottom: 70px;
+    }
+  
+    ol{
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    #input-submit input[type="submit"]{
+      width: 80%;
+      height: 60px;
+      margin-top: 70px;
+      font-size: 1.618em;
+    }
+      
+  }
+  
