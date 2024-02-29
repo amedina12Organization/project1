@@ -95,6 +95,11 @@ body{
     width: 80%; 
     box-sizing: border-box;
   }
+
+  input[type="date"] {
+    appearance: none;
+  }
+  
   
   @media screen and (min-width: 992px){
     p{
