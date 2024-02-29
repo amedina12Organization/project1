@@ -94,12 +94,7 @@ body{
     padding: 5px;
     width: 80%; 
     box-sizing: border-box;
-  }
-
-  input[type="date"] {
-    appearance: textfield;
-  }
-  
+  }  
   
   @media screen and (min-width: 992px){
     p{
